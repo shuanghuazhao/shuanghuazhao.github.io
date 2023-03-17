@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2.MySQL简介</title>
+    <url>/2019/03/19/%E7%AC%AC10%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><strong>MySQL是一种关系数据库管理系统，它可以将数据保存在不同的表中，提高了速度和灵活性。</strong><br>MySQL是开源的，目前属于Oracle公司。你可以使用MySQL来部署云原生应用程序，或者将其嵌入到其他软件产品中。</p>
+<blockquote>
+<p><strong>优点：</strong></p>
+<ul>
+<li><strong>成本免费–开源软件</strong></li>
+<li><strong>性能–执行很快</strong></li>
+<li><strong>可信赖–多个公司使用，用来处理重要数据</strong></li>
+<li><strong>简单–方便安装和使用</strong></li>
+</ul>
+</blockquote>
+]]></content>
+      <categories>
+        <category>SQL</category>
+      </categories>
+      <tags>
+        <tag>SQL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3.使用MySQL</title>
     <url>/2019/03/19/%E7%AC%AC11%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="连接"><a href="#连接" class="headerlink" title="连接"></a>连接</h2><p>为了连接到MySQL,需要以下信息：</p>
@@ -19,27 +40,6 @@
 <p>DESCRIBE语句 MySQL支持用DESCRIBE作为SHOW COLUMNS FROM的一种快捷方式。换句话说，DESCRIBE customers；是SHOW COLUMNS FROM customers；的一种快捷方式。</p>
 </blockquote>
 <figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SHOW</span> STATUS，显示广泛的服务器状态信息；</span><br><span class="line"><span class="keyword">SHOW</span> <span class="keyword">CREATE</span> DARABASE 和<span class="keyword">SHOW</span> <span class="keyword">CREATE</span> <span class="keyword">TABLE</span>.分别用来显示创建特定数据库或表的MySQL语句；</span><br><span class="line"><span class="keyword">SHOW</span> GRANTS,用来显示授予用户的安全权限</span><br><span class="line"><span class="keyword">SHOW</span> ERRORS和<span class="keyword">SHOW</span> WARNINGS用来显示服务器错误或警告信息</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>SQL</category>
-      </categories>
-      <tags>
-        <tag>SQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2.MySQL简介</title>
-    <url>/2019/03/19/%E7%AC%AC10%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><strong>MySQL是一种关系数据库管理系统，它可以将数据保存在不同的表中，提高了速度和灵活性。</strong><br>MySQL是开源的，目前属于Oracle公司。你可以使用MySQL来部署云原生应用程序，或者将其嵌入到其他软件产品中。</p>
-<blockquote>
-<p><strong>优点：</strong></p>
-<ul>
-<li><strong>成本免费–开源软件</strong></li>
-<li><strong>性能–执行很快</strong></li>
-<li><strong>可信赖–多个公司使用，用来处理重要数据</strong></li>
-<li><strong>简单–方便安装和使用</strong></li>
-</ul>
-</blockquote>
 ]]></content>
       <categories>
         <category>SQL</category>
@@ -173,21 +173,6 @@
       </tags>
   </entry>
   <entry>
-    <title>8.正则表达式搜索</title>
-    <url>/2019/04/02/%E7%AC%AC16%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>:::info<br>MySQL中正则表达式是一种用于文本匹配的工具，可以用regexp操作符来进行正则表达式匹配。MySQL的正则表达式语法与PHP或Perl类似，可以使用一些特殊字符来表示不同的规则。<br>:::</p>
-<blockquote>
-<p><strong>MySQL中正则表达式常用的特殊字符有以下几种：</strong><br><strong>.</strong> 匹配任意单个字符<br><strong>[]</strong> 匹配方括号内的任意字符<br><strong>[^]</strong> 匹配方括号外的任意字符<br>***** 匹配前面的字符零次或多次<br><strong>+</strong> 匹配前面的字符一次或多次<br><strong>?</strong> 匹配前面的字符零次或一次<br><strong>{n}</strong> 匹配前面的字符恰好n次<br><strong>{n,m}</strong> 匹配前面的字符至少n次，至多m次<br><strong>|</strong> 匹配两个选项中的一个<br><strong>^</strong> 匹配字符串开头<br><strong>$</strong> 匹配字符串结尾</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>SQL</category>
-      </categories>
-      <tags>
-        <tag>SQL</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>7.过滤数据</title>
     <url>/2019/04/02/%E7%AC%AC15%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="逻辑操作符"><a href="#逻辑操作符" class="headerlink" title="逻辑操作符"></a>逻辑操作符</h1><blockquote>
@@ -233,6 +218,21 @@
 <figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Customers</span><br><span class="line"><span class="keyword">WHERE</span> CustomerName <span class="keyword">LIKE</span> <span class="string">&#x27;A__&#x27;</span>;</span><br></pre></td></tr></table></figure>
 
 <p>这个SQL语句会返回满足条件的记录，并且每个记录都有一个隐含的1作为逻辑表达式的结果。如果没有满足条件的记录，那么SQL语句会返回空集，并且没有隐含的0作为逻辑表达式的结果。如果有任何字段为NULL，那么SQL语句会返回NULL作为逻辑表达式的结果。</p>
+]]></content>
+      <categories>
+        <category>SQL</category>
+      </categories>
+      <tags>
+        <tag>SQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>8.正则表达式搜索</title>
+    <url>/2019/04/02/%E7%AC%AC16%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>:::info<br>MySQL中正则表达式是一种用于文本匹配的工具，可以用regexp操作符来进行正则表达式匹配。MySQL的正则表达式语法与PHP或Perl类似，可以使用一些特殊字符来表示不同的规则。<br>:::</p>
+<blockquote>
+<p><strong>MySQL中正则表达式常用的特殊字符有以下几种：</strong><br><strong>.</strong> 匹配任意单个字符<br><strong>[]</strong> 匹配方括号内的任意字符<br><strong>[^]</strong> 匹配方括号外的任意字符<br>***** 匹配前面的字符零次或多次<br><strong>+</strong> 匹配前面的字符一次或多次<br><strong>?</strong> 匹配前面的字符零次或一次<br><strong>{n}</strong> 匹配前面的字符恰好n次<br><strong>{n,m}</strong> 匹配前面的字符至少n次，至多m次<br><strong>|</strong> 匹配两个选项中的一个<br><strong>^</strong> 匹配字符串开头<br><strong>$</strong> 匹配字符串结尾</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>SQL</category>
@@ -571,6 +571,25 @@
       </tags>
   </entry>
   <entry>
+    <title>集成测试基础知识</title>
+    <url>/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>集成测试是在软件开发过程中的一种测试，旨在测试系统的不同组件之间的交互和整合是否正常。集成测试通常是在单元测试和系统测试之间进行的，它可以确保不同组件之间的交互和整合是正确的，同时也可以识别和解决不同组件之间的兼容性问题。<br>在集成测试过程中，测试人员需要测试整个系统或其中的一部分，以确保它们可以正确地协同工作。集成测试可以分为以下几个步骤：</p>
+<ol>
+<li>定义集成测试的目标和范围：在开始集成测试之前，需要定义集成测试的目标和范围。集成测试的目标是测试不同组件之间的交互和整合是否正常。范围是指需要测试的系统的哪些组件。</li>
+<li>设计测试用例：测试人员需要设计测试用例，以覆盖系统的不同功能和场景，并测试系统的不同组件之间的交互和整合。测试用例应该根据系统的整体结构和设计来设计，以确保测试的全面性和有效性。</li>
+<li>编写测试脚本：测试人员可以使用自动化测试工具，例如Selenium、TestNG、JUnit等，编写测试脚本，自动化执行集成测试，提高测试效率和准确性。</li>
+<li>执行测试：执行测试用例，并记录测试结果。测试人员需要检查测试结果，以确保系统的不同组件之间的交互和整合是否正常。</li>
+<li>分析测试结果：测试人员需要分析测试结果，并识别和解决不同组件之间的兼容性问题。如果发现问题，测试人员需要将问题报告给开发人员，并跟踪问题的解决过程。<br>总之，集成测试是确保系统不同组件之间的交互和整合正常的重要测试步骤，测试人员需要设计测试用例、执行测试和分析测试结果，并识别和解决不同组件之间的兼容性问题。同时，使用自动化测试工具可以提高测试效率和准确性。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件测试阶段</category>
+      </categories>
+      <tags>
+        <tag>基础知识</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>单元测试基础知识</title>
     <url>/2019/03/17/%E7%AC%AC4%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>在进行单元测试时，需要了解以下知识：</p>
@@ -582,25 +601,6 @@
 <li>测试覆盖率：测试覆盖率是衡量测试用例覆盖代码的程度的指标。测试覆盖率可以帮助开发人员评估测试用例的质量和完整性。</li>
 <li>测试驱动开发（TDD）：TDD是一种开发方法论，它要求在编写代码之前先编写测试用例。TDD可以帮助开发人员更快地开发出高质量的代码。</li>
 <li>代码质量管理：单元测试可以帮助提高代码质量，但单元测试本身也需要管理。需要制定测试计划和测试策略，以确保单元测试的质量和完整性。<br>总之，在进行单元测试时，需要了解单元测试框架、测试用例设计、测试数据设计、断言语句、测试覆盖率、测试驱动开发和代码质量管理等知识。只有充分了解这些知识，才能编写高质量、完整的单元测试，提高代码质量和可维护性。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>软件测试阶段</category>
-      </categories>
-      <tags>
-        <tag>基础知识</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>集成测试基础知识</title>
-    <url>/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>集成测试是在软件开发过程中的一种测试，旨在测试系统的不同组件之间的交互和整合是否正常。集成测试通常是在单元测试和系统测试之间进行的，它可以确保不同组件之间的交互和整合是正确的，同时也可以识别和解决不同组件之间的兼容性问题。<br>在集成测试过程中，测试人员需要测试整个系统或其中的一部分，以确保它们可以正确地协同工作。集成测试可以分为以下几个步骤：</p>
-<ol>
-<li>定义集成测试的目标和范围：在开始集成测试之前，需要定义集成测试的目标和范围。集成测试的目标是测试不同组件之间的交互和整合是否正常。范围是指需要测试的系统的哪些组件。</li>
-<li>设计测试用例：测试人员需要设计测试用例，以覆盖系统的不同功能和场景，并测试系统的不同组件之间的交互和整合。测试用例应该根据系统的整体结构和设计来设计，以确保测试的全面性和有效性。</li>
-<li>编写测试脚本：测试人员可以使用自动化测试工具，例如Selenium、TestNG、JUnit等，编写测试脚本，自动化执行集成测试，提高测试效率和准确性。</li>
-<li>执行测试：执行测试用例，并记录测试结果。测试人员需要检查测试结果，以确保系统的不同组件之间的交互和整合是否正常。</li>
-<li>分析测试结果：测试人员需要分析测试结果，并识别和解决不同组件之间的兼容性问题。如果发现问题，测试人员需要将问题报告给开发人员，并跟踪问题的解决过程。<br>总之，集成测试是确保系统不同组件之间的交互和整合正常的重要测试步骤，测试人员需要设计测试用例、执行测试和分析测试结果，并识别和解决不同组件之间的兼容性问题。同时，使用自动化测试工具可以提高测试效率和准确性。</li>
 </ol>
 ]]></content>
       <categories>
