@@ -571,25 +571,6 @@
       </tags>
   </entry>
   <entry>
-    <title>集成测试基础知识</title>
-    <url>/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>集成测试是在软件开发过程中的一种测试，旨在测试系统的不同组件之间的交互和整合是否正常。集成测试通常是在单元测试和系统测试之间进行的，它可以确保不同组件之间的交互和整合是正确的，同时也可以识别和解决不同组件之间的兼容性问题。<br>在集成测试过程中，测试人员需要测试整个系统或其中的一部分，以确保它们可以正确地协同工作。集成测试可以分为以下几个步骤：</p>
-<ol>
-<li>定义集成测试的目标和范围：在开始集成测试之前，需要定义集成测试的目标和范围。集成测试的目标是测试不同组件之间的交互和整合是否正常。范围是指需要测试的系统的哪些组件。</li>
-<li>设计测试用例：测试人员需要设计测试用例，以覆盖系统的不同功能和场景，并测试系统的不同组件之间的交互和整合。测试用例应该根据系统的整体结构和设计来设计，以确保测试的全面性和有效性。</li>
-<li>编写测试脚本：测试人员可以使用自动化测试工具，例如Selenium、TestNG、JUnit等，编写测试脚本，自动化执行集成测试，提高测试效率和准确性。</li>
-<li>执行测试：执行测试用例，并记录测试结果。测试人员需要检查测试结果，以确保系统的不同组件之间的交互和整合是否正常。</li>
-<li>分析测试结果：测试人员需要分析测试结果，并识别和解决不同组件之间的兼容性问题。如果发现问题，测试人员需要将问题报告给开发人员，并跟踪问题的解决过程。<br>总之，集成测试是确保系统不同组件之间的交互和整合正常的重要测试步骤，测试人员需要设计测试用例、执行测试和分析测试结果，并识别和解决不同组件之间的兼容性问题。同时，使用自动化测试工具可以提高测试效率和准确性。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>软件测试阶段</category>
-      </categories>
-      <tags>
-        <tag>基础知识</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>单元测试基础知识</title>
     <url>/2019/03/17/%E7%AC%AC4%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>在进行单元测试时，需要了解以下知识：</p>
@@ -601,6 +582,25 @@
 <li>测试覆盖率：测试覆盖率是衡量测试用例覆盖代码的程度的指标。测试覆盖率可以帮助开发人员评估测试用例的质量和完整性。</li>
 <li>测试驱动开发（TDD）：TDD是一种开发方法论，它要求在编写代码之前先编写测试用例。TDD可以帮助开发人员更快地开发出高质量的代码。</li>
 <li>代码质量管理：单元测试可以帮助提高代码质量，但单元测试本身也需要管理。需要制定测试计划和测试策略，以确保单元测试的质量和完整性。<br>总之，在进行单元测试时，需要了解单元测试框架、测试用例设计、测试数据设计、断言语句、测试覆盖率、测试驱动开发和代码质量管理等知识。只有充分了解这些知识，才能编写高质量、完整的单元测试，提高代码质量和可维护性。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件测试阶段</category>
+      </categories>
+      <tags>
+        <tag>基础知识</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>集成测试基础知识</title>
+    <url>/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>集成测试是在软件开发过程中的一种测试，旨在测试系统的不同组件之间的交互和整合是否正常。集成测试通常是在单元测试和系统测试之间进行的，它可以确保不同组件之间的交互和整合是正确的，同时也可以识别和解决不同组件之间的兼容性问题。<br>在集成测试过程中，测试人员需要测试整个系统或其中的一部分，以确保它们可以正确地协同工作。集成测试可以分为以下几个步骤：</p>
+<ol>
+<li>定义集成测试的目标和范围：在开始集成测试之前，需要定义集成测试的目标和范围。集成测试的目标是测试不同组件之间的交互和整合是否正常。范围是指需要测试的系统的哪些组件。</li>
+<li>设计测试用例：测试人员需要设计测试用例，以覆盖系统的不同功能和场景，并测试系统的不同组件之间的交互和整合。测试用例应该根据系统的整体结构和设计来设计，以确保测试的全面性和有效性。</li>
+<li>编写测试脚本：测试人员可以使用自动化测试工具，例如Selenium、TestNG、JUnit等，编写测试脚本，自动化执行集成测试，提高测试效率和准确性。</li>
+<li>执行测试：执行测试用例，并记录测试结果。测试人员需要检查测试结果，以确保系统的不同组件之间的交互和整合是否正常。</li>
+<li>分析测试结果：测试人员需要分析测试结果，并识别和解决不同组件之间的兼容性问题。如果发现问题，测试人员需要将问题报告给开发人员，并跟踪问题的解决过程。<br>总之，集成测试是确保系统不同组件之间的交互和整合正常的重要测试步骤，测试人员需要设计测试用例、执行测试和分析测试结果，并识别和解决不同组件之间的兼容性问题。同时，使用自动化测试工具可以提高测试效率和准确性。</li>
 </ol>
 ]]></content>
       <categories>
