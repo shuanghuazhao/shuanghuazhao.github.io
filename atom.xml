@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-17T14:30:26.558Z</updated>
+  <updated>2023-03-17T14:47:30.918Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,206 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件质量保证知识</title>
+    <link href="http://example.com/2020/03/08/%E7%AC%AC27%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/03/08/%E7%AC%AC27%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-03-08T12:20:10.000Z</published>
+    <updated>2023-03-17T14:47:30.918Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="基础" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件缺陷知识的学习</title>
+    <link href="http://example.com/2020/03/08/%E7%AC%AC28%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/03/08/%E7%AC%AC28%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-03-08T12:20:10.000Z</published>
+    <updated>2023-03-17T14:48:03.438Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="基础" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件开发过程学习需掌握知识</title>
+    <link href="http://example.com/2020/02/27/%E7%AC%AC26%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/02/27/%E7%AC%AC26%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-02-27T12:20:10.000Z</published>
+    <updated>2023-03-17T14:46:40.178Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="基础" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件测试复习的基础知识内</title>
+    <link href="http://example.com/2020/02/26/%E7%AC%AC25%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/02/26/%E7%AC%AC25%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-02-26T12:30:10.000Z</published>
+    <updated>2023-03-17T14:45:57.848Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="基础" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件测试工程师复习路线</title>
+    <link href="http://example.com/2020/02/26/%E7%AC%AC24%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/02/26/%E7%AC%AC24%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-02-26T12:20:10.000Z</published>
+    <updated>2023-03-17T14:45:22.178Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="基础" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习JMeter的资源和网站</title>
+    <link href="http://example.com/2020/01/06/%E7%AC%AC22%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/01/06/%E7%AC%AC22%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-01-06T12:20:10.000Z</published>
+    <updated>2023-03-17T14:42:38.228Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="推荐" scheme="http://example.com/categories/%E6%8E%A8%E8%8D%90/"/>
+    
+    
+    <category term="书籍" scheme="http://example.com/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python学习网站推荐</title>
+    <link href="http://example.com/2020/01/06/%E7%AC%AC23%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/01/06/%E7%AC%AC23%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-01-06T12:20:10.000Z</published>
+    <updated>2023-03-17T14:43:25.958Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="推荐" scheme="http://example.com/categories/%E6%8E%A8%E8%8D%90/"/>
+    
+    
+    <category term="书籍" scheme="http://example.com/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件缺陷知识书籍推荐</title>
+    <link href="http://example.com/2020/01/06/%E7%AC%AC21%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/01/06/%E7%AC%AC21%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-01-06T12:10:10.000Z</published>
+    <updated>2023-03-17T14:42:40.358Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="推荐" scheme="http://example.com/categories/%E6%8E%A8%E8%8D%90/"/>
+    
+    
+    <category term="书籍" scheme="http://example.com/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>12.分组函数</title>
@@ -313,204 +513,6 @@
     
     
     <category term="书籍" scheme="http://example.com/tags/%E4%B9%A6%E7%B1%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1.了解SQL</title>
-    <link href="http://example.com/2019/03/19/%E7%AC%AC9%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2019/03/19/%E7%AC%AC9%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2019-03-19T12:13:10.000Z</published>
-    <updated>2023-03-17T14:17:39.178Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
-    
-    
-    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>验收测试基础知识</title>
-    <link href="http://example.com/2019/03/18/%E7%AC%AC7%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2019/03/18/%E7%AC%AC7%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2019-03-18T12:30:47.000Z</published>
-    <updated>2023-03-17T14:11:01.808Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件测试阶段" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/"/>
-    
-    
-    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>系统测试基础知识</title>
-    <link href="http://example.com/2019/03/18/%E7%AC%AC6%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2019/03/18/%E7%AC%AC6%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2019-03-18T12:02:47.000Z</published>
-    <updated>2023-03-17T14:32:32.998Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件测试阶段" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/"/>
-    
-    
-    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>单元测试基础知识</title>
-    <link href="http://example.com/2019/03/17/%E7%AC%AC4%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2019/03/17/%E7%AC%AC4%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2019-03-17T14:02:47.000Z</published>
-    <updated>2023-03-17T14:11:15.788Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件测试阶段" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/"/>
-    
-    
-    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>集成测试基础知识</title>
-    <link href="http://example.com/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2019-03-17T14:02:47.000Z</published>
-    <updated>2023-03-17T14:32:30.368Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件测试阶段" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/"/>
-    
-    
-    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>软件设计阶段需要了解的知识</title>
-    <link href="http://example.com/2019/03/17/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2019/03/17/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2019-03-17T14:02:47.000Z</published>
-    <updated>2023-03-17T14:05:52.879Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>需求分析阶段需要了解的知识</title>
-    <link href="http://example.com/2019/03/17/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2019/03/17/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2019-03-17T13:59:41.000Z</published>
-    <updated>2023-03-17T14:02:33.169Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>软件开发生命周期</title>
-    <link href="http://example.com/2019/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2019/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2019-03-17T12:02:47.000Z</published>
-    <updated>2023-03-17T14:12:53.548Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
     
   </entry>
   

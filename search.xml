@@ -408,6 +408,169 @@
       </tags>
   </entry>
   <entry>
+    <title>软件缺陷知识书籍推荐</title>
+    <url>/2020/01/06/%E7%AC%AC21%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>以下是学习软件缺陷相关知识的推荐资源：</p>
+<ol>
+<li>《软件缺陷管理与跟踪》：一本系统介绍软件缺陷管理的专业书籍，涵盖缺陷定义、分类、跟踪、管理流程等方面的内容。</li>
+<li>《软件测试缺陷分类与管理》：介绍软件测试缺陷的分类、管理和跟踪方法，涉及到缺陷的定义、重现、归档、修复等方面。</li>
+<li>网上公开课程：例如 Coursera、edX、Udacity 等在线学习平台上提供的软件测试和软件工程相关的课程，包括课程视频、案例分析和实践项目。</li>
+<li>测试工具厂商提供的文档和培训材料：许多测试工具厂商都提供软件测试和缺陷管理相关的文档和培训材料，可以通过厂商官网或相关的技术社区获取。</li>
+<li>技术博客和论坛：例如博客园、CSDN、Stack Overflow 等技术社区，有很多专业的测试工程师和开发人员分享他们的经验和技术知识，可以通过搜索和阅读相关文章来学习。</li>
+<li>经验交流和实践：在实际工作中，与其他测试人员和开发人员进行经验交流和实践，发现和解决问题，积累自己的经验和知识。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>推荐</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习JMeter的资源和网站</title>
+    <url>/2020/01/06/%E7%AC%AC22%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>如果你没有基础，学习 JMeter 可能需要先学习一些基础的软件测试知识和编程知识。以下是一些推荐的 JMeter 学习资源：<br>书籍：<br> -《JMeter学习与实战》：作者刘方涵，深入浅出的讲解了JMeter的使用方法以及常见的性能测试场景。<br>-《JMeter实战》：作者Praphullchandra Singh，从基础到实战全面介绍了JMeter的使用方法和实际应用。<br>-《JMeter Cookbook》：作者Bayo Erinle，提供了许多实用的JMeter脚本和性能测试技巧。<br>网站：<br>● JMeter官方文档：官方文档详细介绍了JMeter的各个方面，包括用户手册、函数和变量、组件等等。<br>● Apache JMeter用户邮件列表：这是一个非常活跃的邮件列表，里面有许多用户在讨论JMeter的使用问题和技巧。<br>● JMeter Tutorials：该网站提供了大量的JMeter教程，从入门到高级应用都有涉及，包括视频教程和实例演示。<br>● JMeter学习之路：作者白薯，通过自己的学习经验总结了一些JMeter的学习心得和实践经验。<br>希望这些资源可以帮助你开始学习 JMeter</p>
+]]></content>
+      <categories>
+        <category>推荐</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python学习网站推荐</title>
+    <url>/2020/01/06/%E7%AC%AC23%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>以下是一些适合初学者学习 Python 的网站：</p>
+<ol>
+<li>Codecademy：这是一个在线编程学习网站，提供免费的 Python 课程和项目练习，适合初学者快速上手。</li>
+<li>W3Schools Python 教程：W3Schools 提供免费的 Python 教程，覆盖了 Python 的基础语法和常用库的使用，适合初学者入门。</li>
+<li>Python.org：Python 官方网站提供了 Python 的文档、教程和资源等，包括了从入门到高级的学习资料，是学习 Python 的重要参考网站之一。</li>
+<li>Coursera：这是一个在线学习平台，提供了多个大学和机构的 Python 课程，包括 Python 编程基础、数据科学和机器学习等方向，适合有一定编程经验的学习者。</li>
+<li>edX：类似于 Coursera，edX 也是一个在线学习平台，提供了多个大学和机构的 Python 课程和项目练习，适合各个水平的学习者。<br>除了以上网站，还有许多其他的 Python 学习资源和社区，你可以根据自己的需求和喜好来选择合适的学习方式。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>推荐</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件测试工程师复习路线</title>
+    <url>/2020/02/26/%E7%AC%AC24%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>以下是一条比较常见的软件测试工程师复习路线：</p>
+<ol>
+<li>熟悉软件测试基础知识，包括测试类型、测试设计方法、测试用例编写等内容。</li>
+<li>熟悉软件开发过程，了解不同的开发模型，如瀑布模型、敏捷开发等，并了解软件测试在每个开发阶段的任务和职责。</li>
+<li>掌握至少一种编程语言，如Java、Python等，可以通过编写自动化测试脚本来提高测试效率和质量。</li>
+<li>熟悉数据库的基本操作和SQL语句，可以通过对数据进行操作和验证，对软件的功能和性能进行测试。</li>
+<li>学习软件测试工具的使用，如JMeter、Selenium、Appium等，掌握使用这些工具进行性能测试、自动化测试等的方法。</li>
+<li>了解常见的软件缺陷类型和缺陷管理流程，包括缺陷报告、缺陷跟踪、缺陷评审等。</li>
+<li>学习软件质量保证的相关知识，了解ISO9000等质量标准的要求，掌握软件测试的质量保证方法和策略。</li>
+<li>参与真实项目的测试实践，通过实践不断积累测试经验和技巧。</li>
+<li>学习软件测试领域的前沿技术和趋势，如AI测试、区块链测试等，保持学习和探索的态度。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>基础</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件测试复习的基础知识内</title>
+    <url>/2020/02/26/%E7%AC%AC25%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>软件测试的基础知识包括以下内容：</p>
+<ol>
+<li>软件开发生命周期：了解软件开发生命周期的基本概念，包括需求分析、设计、编码、测试和维护等各个阶段。</li>
+<li>测试基础知识：掌握软件测试的基本概念、目的、原则和分类，了解测试用例、测试计划、测试报告等相关概念。</li>
+<li>软件缺陷管理：了解软件缺陷管理的流程和方法，包括缺陷的发现、记录、跟踪、验证和关闭等环节。</li>
+<li>测试工具：掌握软件测试常用的工具，包括测试管理工具、自动化测试工具、性能测试工具等。</li>
+<li>质量保障：了解软件质量保障的基本概念和方法，包括代码审查、测试规范、质量评估等。</li>
+<li>静态测试：掌握静态测试的基本概念和方法，包括代码检查、代码审查、文档检查等。</li>
+<li>动态测试：掌握动态测试的基本概念和方法，包括黑盒测试、白盒测试、灰盒测试等。</li>
+<li>软件测试管理：了解测试计划编制、测试执行、测试监控等测试管理相关的知识。</li>
+<li>软件开发规范：了解软件开发的规范和标准，如ISO、IEEE等。<br>以上是软件测试的基础知识的主要内容，测试人员需要掌握这些知识才能在工作中更好地完成测试任务。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>基础</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件开发过程学习需掌握知识</title>
+    <url>/2020/02/27/%E7%AC%AC26%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>学习软件开发过程需要掌握以下几个方面：</p>
+<ol>
+<li>编程语言和开发工具：选择一门常用的编程语言，并掌握相关的开发工具，例如IDE、版本控制工具等。</li>
+<li>软件开发流程：了解软件开发的各个阶段，例如需求分析、设计、开发、测试和部署等，以及每个阶段的工作内容和交付物。</li>
+<li>软件质量保证：掌握软件测试的基础知识，包括测试策略、测试计划、测试用例设计、测试执行和缺陷管理等。</li>
+<li>Agile方法论：了解敏捷开发的基本理念和流程，例如Scrum、Kanban等，并学会如何在敏捷开发中进行测试和质量保证。</li>
+<li>DevOps：了解DevOps的概念和流程，学会如何将测试和质量保证整合到DevOps流程中，实现快速部署和高质量交付。<br>对于学习软件开发过程，可以通过自学、参加培训班、阅读相关书籍和博客等方式来提高自己的知识水平。此外，积极参与开源项目、实践项目、参加社区活动等也是提高软件开发经验的有效途径。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>基础</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件质量保证知识</title>
+    <url>/2020/03/08/%E7%AC%AC27%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>学习软件质量保证的相关知识，建议从以下几个方面入手：</p>
+<ol>
+<li>软件质量基础知识：了解软件质量的概念、软件质量的度量方法、软件质量的特征等。</li>
+<li>质量保证流程和标准：熟悉软件质量保证的流程、标准和方法，例如CMMI、ISO 9001等。</li>
+<li>质量管理工具：学习如何使用质量管理工具，例如Jira、Redmine等，了解如何跟踪和管理软件质量的各个方面。</li>
+<li>软件测试：软件测试是确保软件质量的关键环节，需要了解测试方法和技术，例如黑盒测试、白盒测试、自动化测试、性能测试等。</li>
+<li>质量度量和分析：学习如何对软件质量进行度量和分析，例如如何建立度量指标、如何分析度量数据等。<br>以下是一些学习软件质量保证相关知识的资源：</li>
+<li>《软件测试基础》（刘卫国著）：这是一本比较全面的软件测试入门书籍，其中也包括了软件质量保证的相关知识。</li>
+<li>质量保证标准和规范：例如CMMI、ISO 9001、IEEE 12207等。</li>
+<li>软件测试培训和认证课程：例如ISTQB、CSQA等，这些课程涵盖了软件质量保证的基础知识、流程、标准和方法。</li>
+<li>软件测试工具官方文档和社区：例如Selenium、JMeter、Appium等，官方文档和社区都提供了丰富的测试实践案例和质量保证经验分享。</li>
+<li>质量管理工具官方文档和社区：例如Jira、Redmine、Trello等，官方文档和社区都提供了丰富的质量管理实践案例和经验分享。<br>希望以上资源可以帮助您学习软件质量保证相关知识。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>基础</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件缺陷知识的学习</title>
+    <url>/2020/03/08/%E7%AC%AC28%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>学习软件缺陷的知识可以包括以下方面：</p>
+<ol>
+<li>软件测试理论基础：包括软件测试的定义、目的、分类、过程、方法、策略、技术等，其中与缺陷相关的主要是测试方法和技术，例如黑盒测试、白盒测试、灰盒测试、功能测试、性能测试、安全测试等。</li>
+<li>软件缺陷的定义和分类：软件缺陷通常包括错误、缺陷、问题、bug等，学习这些概念和分类有助于更好地理解软件缺陷的本质。</li>
+<li>缺陷的识别和报告：学习如何识别和报告缺陷是软件测试中非常重要的一环，通常包括如何使用缺陷管理工具、如何编写缺陷报告、如何评估缺陷的优先级和严重性等。</li>
+<li>缺陷的跟踪和管理：软件缺陷的跟踪和管理对于软件测试和质量保障至关重要，通常需要学习如何使用缺陷管理工具、如何跟踪和更新缺陷状态、如何分配和协调缺陷修复等。</li>
+<li>缺陷的分析和修复：学习如何分析和修复缺陷可以帮助测试人员更好地理解软件代码和架构，通常包括如何使用调试工具、如何分析日志和堆栈跟踪、如何定位和修复缺陷等。</li>
+<li>缺陷预防和质量改进：学习如何预防缺陷和改进软件质量是软件测试的终极目标，通常需要学习如何进行代码审查、单元测试、持续集成、自动化测试等。<br>推荐学习资源包括：</li>
+<li>《软件测试基础》（王晓东著）：这是一本介绍软件测试基本理论和方法的入门教材，对于初学者来说非常友好。</li>
+<li>《软件测试实用技术》（陈欢著）：这本书介绍了软件测试中各种实用技术和方法，包括测试计划、测试用例设计、测试执行、缺陷管理等。</li>
+<li>《软件测试与质量保障》（刘洪涛、田丽华著）：这本书系统地介绍了软件测试的各个方面，包括软件测试的概念、过程、方法和工具，还包括缺陷管理、质量评估等内容。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>基础</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>单元测试基础知识</title>
     <url>/2019/03/17/%E7%AC%AC4%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>在进行单元测试时，需要了解以下知识：</p>

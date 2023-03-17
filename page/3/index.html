@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  
+
+    <head>
+      <meta charset="utf-8" />
+        
+      <meta name="description" content="一个简单的博客" />
+      
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title> 华华</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/favicon.ico" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      
+<link rel="stylesheet" href="/css/fonts/remixicon.css">
+
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
+       
+ 
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+
+      <!-- mermaid -->
+      
+      <style>
+        .swal2-styled.swal2-confirm {
+          font-size: 1.6rem;
+        }
+      </style>
+    <link rel="alternate" href="/atom.xml" title="华华" type="application/atom+xml">
+</head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
+    <main class="content on">
+      
+<section class="cover">
+    
+      
+      <a class="forkMe" href="https://github.com/shuanghuazhao"
+        target="_blank"><img width="149" height="149" src="/images/forkme.png"
+          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+    
+  <div class="cover-frame">
+    <div class="bg-box">
+      <img src="/images/cover4.jpg" alt="image frame" />
+    </div>
+    <div class="cover-inner text-center text-white">
+      <h1><a href="/">华华</a></h1>
+      <div id="subtitle-box">
+        
+          <span id="subtitle">音乐是一种道德律，它使宇宙有了魂魄，心灵有了翅膀，想像得以飞翔，使忧伤与欢乐有如醉如痴的力量，使一切事物有了生命；它是秩序的本质，引向成为真、善、美的一切。</span>
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="cover-learn-more">
+    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
+  </div>
+</section>
+
+
+
+
+<!-- Subtitle -->
+
+<div id="main">
+  <section class="outer">
+  
+  
+  
+
+<div class="notice" style="margin-top:50px">
+    <i class="ri-heart-fill"></i>
+    <div class="notice-content" id="broad"></div>
+</div>
+<script type="text/javascript">
+    fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("broad").innerHTML = data.hitokoto;
+        })
+        .catch(console.error)
+</script>
+
+<style>
+    .notice {
+        padding: 20px;
+        border: 1px dashed #e6e6e6;
+        color: #969696;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        background: #fbfbfb50;
+        border-radius: 10px;
+    }
+
+    .notice i {
+        float: left;
+        color: #999;
+        font-size: 16px;
+        padding-right: 10px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+
+    .notice-content {
+        display: initial;
+        vertical-align: middle;
+    }
+</style>
+  
+  <article class="articles">
+    
+    
+    
+    
+    <article
+  id="post-第9篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/19/%E7%AC%AC9%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >1.了解SQL</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/19/%E7%AC%AC9%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-19T12:13:10.000Z" itemprop="datePublished">2019-03-19</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/SQL/">SQL</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h2 id="什么是数据库？"><a href="#什么是数据库？" class="headerlink" title="什么是数据库？"></a>什么是数据库？</h2><p>**数据库（database） **保存有组织的数据的容器（通常是一个文件或一组文件）。</p>
+<blockquote>
+<p>数据库软件应该称为DBMS（数据库管理系统）。数据库是通过DBMS创建和操纵的容器。数据库可以是保存再硬件设备上的文件，但也可以不是。你使用的是DBMS，它替你访问数据库。</p>
+</blockquote>
+<h2 id="表"><a href="#表" class="headerlink" title="表"></a>表</h2><p><strong>表（table）</strong> 某种特定类型数据的结构化清单。</p>
+<blockquote>
+<p>数据库的表是用来存储数据的对象，是有结构的数据的集合。每一个数据库都是由若干个数据表组成的。表包含带有列名的列，和记录数据的行。</p>
+</blockquote>
+<h2 id="列和数据类型"><a href="#列和数据类型" class="headerlink" title="列和数据类型"></a>列和数据类型</h2><p><strong>列（column）</strong> 表中的一个字段。所有表都是由一个或多个列组成的。<br>数据库表中的列是用来表示数据的<strong>属性或特征</strong>，也称为<strong>字段或域</strong>。每个列都有一个名称和一个数据类型。数据类型决定了列可以存储什么样的数据，例如整数、字符串、日期等。</p>
+<p><strong>数据类型（datatype）</strong> 所容许的数据的类型。每个表列都有相应的数据类型，它限制（或容许）该列中存储的数据。</p>
+<blockquote>
+<p>数据库表中的数据类型是用来规定列可以存储什么样的数据，例如整数、字符串、日期等。不同的数据库系统支持不同的数据类型，但一般可以分为以下几种：</p>
+<ul>
+<li>字符/字符串类型，如 character(n)、varchar(n) 等</li>
+<li>二进制类型，如 binary(n)、varbinary(n) 等</li>
+<li>数值类型，如 integer(p)、float(p)、decimal(p,s) 等</li>
+<li>布尔类型，如 boolean</li>
+<li>日期/时间类型，如 date、time、datetime 等</li>
+</ul>
+</blockquote>
+<h2 id="行"><a href="#行" class="headerlink" title="行"></a>行</h2><p><strong>行（row）</strong> 表中的一个记录。</p>
+<blockquote>
+<p>表中的数据是按行存储的，所保存的每个记录存储在自己的行内。如果将表想象为网格，网格中垂直的列为表列，水平行为表行。</p>
+</blockquote>
+<h2 id="主键"><a href="#主键" class="headerlink" title="主键"></a>主键</h2><p><strong>主键（primary key）</strong>一列（或一组列），其值能够唯一区分表中每个行。</p>
+<blockquote>
+<p>数据库主键是由表中的一个或者多个字段构成，用来唯一标识表中的每一行记录。主键必须包含唯一的值，不能包含 null 值。每个表只能有一个主键。</p>
+</blockquote>
+<blockquote>
+<p>**主键的最好习惯 **除MySQL强制实施的规则外，应该坚持的几个普遍认可的最好习惯为：</p>
+<ul>
+<li>不更新主键列中的值；</li>
+<li>不重用主键列的值；</li>
+<li>不在主键列中使用可能会更改的值。</li>
+</ul>
+</blockquote>
+<p>（例如，如果使用一个名字作为主键以标识某个供应商，当该供应商合并和更改其名字时，必须更改这个主键。）</p>
+<h2 id="什么是SQL"><a href="#什么是SQL" class="headerlink" title="什么是SQL"></a>什么是SQL</h2><blockquote>
+<p><strong>SQL是一门用于管理关系数据库管理系统（RDBMS）的语言。</strong><br>SQL可以让您访问和处理数据库，包括数据插入、查询、更新和删除，数据库模式创建和修改，以及数据访问控制。<br>SQL在1986年成为ANSI的一项标准，在1987年成为ISO标准。</p>
+</blockquote>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQL/" rel="tag">SQL</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
+  id="post-第7篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/18/%E7%AC%AC7%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >验收测试基础知识</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/18/%E7%AC%AC7%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-18T12:30:47.000Z" itemprop="datePublished">2019-03-18</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/">软件测试阶段</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>验收测试是软件开发生命周期中的最后一个测试阶段，旨在验证软件是否符合客户的需求和预期的业务场景。验收测试由客户或最终用户执行，旨在确保软件系统满足特定的需求和要求，并且可以满足特定的业务场景和用户需求。<br>验收测试包括以下步骤：</p>
+<ol>
+<li>需求确认：在进行验收测试之前，客户或最终用户应该确认软件系统的需求和要求是否满足其业务需求。</li>
+<li>测试计划：客户或最终用户应该准备测试计划，以确保软件系统可以满足特定的业务场景和用户需求。</li>
+<li>测试执行：客户或最终用户应该执行测试计划，以确保软件系统可以满足特定的需求和业务场景。测试人员需要记录测试结果，并在发现问题时向开发团队汇报问题。</li>
+<li>问题修复：开发团队需要解决测试中发现的问题，并验证修复是否有效。</li>
+<li>重复测试：客户或最终用户需要重新执行测试，以确保问题已被解决，并且软件系统可以满足特定的需求和业务场景。<br>验收测试的目的是确保软件系统可以满足客户或最终用户的需求和要求，验证软件系统是否符合预期的业务场景和用户需求。测试人员需要与客户或最终用户密切合作，以确保软件系统可以满足其业务需求。</li>
+</ol>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag">基础知识</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
+  id="post-第6篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/18/%E7%AC%AC6%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >系统测试基础知识</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/18/%E7%AC%AC6%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-18T12:02:47.000Z" itemprop="datePublished">2019-03-18</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/">软件测试阶段</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>系统测试是软件开发生命周期中的一种测试，主要用于测试整个系统是否符合其预期功能和性能要求。系统测试通常是在单元测试、集成测试和验收测试之后进行的。系统测试可以帮助开发人员和测试人员识别和解决系统中的错误和缺陷，以确保系统的可靠性、稳定性和安全性。<br>系统测试主要包括以下几个方面：</p>
+<ol>
+<li>功能测试：系统测试应该测试系统的各种功能，包括各种输入和输出、交互和响应等，以验证系统是否按照预期工作。</li>
+<li>性能测试：系统测试应该测试系统的性能，包括响应时间、并发用户数、吞吐量和负载等，以验证系统的可扩展性和可靠性。</li>
+<li>安全测试：系统测试应该测试系统的安全性，包括身份验证、访问控制、数据保护等，以验证系统是否能够保护用户数据和系统资源的安全性。</li>
+<li>兼容性测试：系统测试应该测试系统在不同平台和设备上的兼容性，包括不同操作系统、不同浏览器、不同移动设备等，以验证系统在不同环境下的运行情况。<br>在进行系统测试时，测试人员需要编写测试用例，以测试系统的不同功能和性能，并记录测试结果。如果发现错误和缺陷，测试人员需要将问题报告给开发人员，并跟踪问题的解决过程。总之，系统测试是确保系统符合预期功能和性能要求的重要测试步骤，测试人员需要测试各种功能、性能和安全性，并识别和解决错误和缺陷。</li>
+</ol>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag">基础知识</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
+  id="post-第4篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/17/%E7%AC%AC4%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >单元测试基础知识</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/17/%E7%AC%AC4%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-17T14:02:47.000Z" itemprop="datePublished">2019-03-17</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/">软件测试阶段</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>在进行单元测试时，需要了解以下知识：</p>
+<ol>
+<li>单元测试框架：单元测试框架是一种工具，可以帮助开发人员编写、运行和管理单元测试。常用的单元测试框架包括JUnit、NUnit、pytest等。</li>
+<li>测试用例设计：测试用例是单元测试的基本单位，需要设计测试用例来测试代码的各种情况。测试用例应该覆盖所有可能出现的情况，包括正常情况和异常情况。</li>
+<li>测试数据设计：测试数据是单元测试的重要组成部分，需要设计测试数据来测试代码的各种情况。测试数据应该包括正常情况下的数据和异常情况下的数据。</li>
+<li>断言语句：断言语句用于判断测试结果是否符合预期。常用的断言语句包括assertEquals、assertNotEquals、assertTrue、assertFalse等。</li>
+<li>测试覆盖率：测试覆盖率是衡量测试用例覆盖代码的程度的指标。测试覆盖率可以帮助开发人员评估测试用例的质量和完整性。</li>
+<li>测试驱动开发（TDD）：TDD是一种开发方法论，它要求在编写代码之前先编写测试用例。TDD可以帮助开发人员更快地开发出高质量的代码。</li>
+<li>代码质量管理：单元测试可以帮助提高代码质量，但单元测试本身也需要管理。需要制定测试计划和测试策略，以确保单元测试的质量和完整性。<br>总之，在进行单元测试时，需要了解单元测试框架、测试用例设计、测试数据设计、断言语句、测试覆盖率、测试驱动开发和代码质量管理等知识。只有充分了解这些知识，才能编写高质量、完整的单元测试，提高代码质量和可维护性。</li>
+</ol>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag">基础知识</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
+  id="post-第5篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >集成测试基础知识</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-17T14:02:47.000Z" itemprop="datePublished">2019-03-17</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/">软件测试阶段</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>集成测试是在软件开发过程中的一种测试，旨在测试系统的不同组件之间的交互和整合是否正常。集成测试通常是在单元测试和系统测试之间进行的，它可以确保不同组件之间的交互和整合是正确的，同时也可以识别和解决不同组件之间的兼容性问题。<br>在集成测试过程中，测试人员需要测试整个系统或其中的一部分，以确保它们可以正确地协同工作。集成测试可以分为以下几个步骤：</p>
+<ol>
+<li>定义集成测试的目标和范围：在开始集成测试之前，需要定义集成测试的目标和范围。集成测试的目标是测试不同组件之间的交互和整合是否正常。范围是指需要测试的系统的哪些组件。</li>
+<li>设计测试用例：测试人员需要设计测试用例，以覆盖系统的不同功能和场景，并测试系统的不同组件之间的交互和整合。测试用例应该根据系统的整体结构和设计来设计，以确保测试的全面性和有效性。</li>
+<li>编写测试脚本：测试人员可以使用自动化测试工具，例如Selenium、TestNG、JUnit等，编写测试脚本，自动化执行集成测试，提高测试效率和准确性。</li>
+<li>执行测试：执行测试用例，并记录测试结果。测试人员需要检查测试结果，以确保系统的不同组件之间的交互和整合是否正常。</li>
+<li>分析测试结果：测试人员需要分析测试结果，并识别和解决不同组件之间的兼容性问题。如果发现问题，测试人员需要将问题报告给开发人员，并跟踪问题的解决过程。<br>总之，集成测试是确保系统不同组件之间的交互和整合正常的重要测试步骤，测试人员需要设计测试用例、执行测试和分析测试结果，并识别和解决不同组件之间的兼容性问题。同时，使用自动化测试工具可以提高测试效率和准确性。</li>
+</ol>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag">基础知识</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
+  id="post-第三篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/17/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >软件设计阶段需要了解的知识</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/17/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-17T14:02:47.000Z" itemprop="datePublished">2019-03-17</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%9F%BA%E7%A1%80/">基础</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>在软件设计阶段，需要了解以下知识：</p>
+<ol>
+<li>软件需求分析：软件设计应该基于对需求的全面理解和深入分析。软件需求分析是确定软件系统功能、性能、接口、数据等要求的过程。</li>
+<li>软件体系结构设计：软件体系结构设计是确定软件系统组成部分、它们之间的关系以及如何满足需求的过程。软件体系结构应该是可扩展的、可维护的、可重用的。</li>
+<li>设计模式：设计模式是解决软件设计问题的经验性解决方案。它们是针对常见问题的经过实践验证的解决方案，可以帮助开发人员更高效地开发和维护软件系统。</li>
+<li>编程语言和工具：选择合适的编程语言和工具是软件设计的重要决策。不同的编程语言和工具适用于不同类型的问题和需求。</li>
+<li>数据库设计：数据库是软件系统的关键组成部分，因此在软件设计阶段需要进行数据库设计。数据库设计需要考虑数据结构、数据类型、数据安全等方面的问题。</li>
+<li>用户体验设计：软件设计不仅仅是为了实现功能，还要提供良好的用户体验。因此，软件设计阶段需要进行用户体验设计，包括界面设计、交互设计、可用性测试等。</li>
+<li>软件测试：软件设计阶段需要制定测试计划和测试策略，以确保软件系统的正确性、健壮性和性能。<br>总之，在软件设计阶段，需要对软件系统的要求、体系结构、设计模式、编程语言和工具、数据库设计、用户体验设计和软件测试等方面进行全面了解，以制定高质量、可维护和可扩展的软件系统。</li>
+</ol>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag">基础知识</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
+  id="post-第二篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/17/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >需求分析阶段需要了解的知识</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/17/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-17T13:59:41.000Z" itemprop="datePublished">2019-03-17</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>需求分析是软件开发的第一步，是确保软件开发成功的关键之一。在需求分析阶段，需要对软件的需求进行充分的了解和收集，包括功能需求、性能需求、安全需求、用户需求等等，同时还需要考虑到需求的可行性、可靠性、可维护性等方面。<br>以下是需求分析中需要了解的知识：</p>
+<ol>
+<li>软件开发的基础知识：了解软件开发的基本概念、软件开发流程、软件工程的基本原则和方法等。</li>
+<li>领域知识：了解软件开发的相关领域，例如银行、保险、医疗等领域的相关业务流程和规则等，以便更好地理解和收集需求。</li>
+<li>用户需求：了解用户的需求、期望和使用场景等，通过用户调研、用户访谈等方式进行收集和分析。</li>
+<li>功能需求：明确软件需要完成的功能，对每个功能进行详细的描述和分析。</li>
+<li>非功能需求：了解软件的性能需求（例如响应时间、并发数、可扩展性等）、安全需求（例如用户权限、数据安全等）和可用性需求（例如易用性、用户体验等）等。</li>
+<li>可行性分析：对需求的可行性进行评估，包括技术可行性、资源可行性、市场可行性等方面。</li>
+<li>需求规范化：对需求进行规范化和文档化，例如使用用例图、活动图、流程图、状态转换图等方式对需求进行描述和分析。</li>
+<li>需求变更管理：了解需求变更的原因和影响，并采取相应的措施进行管理和跟踪。<br>综上所述，需求分析是软件开发中至关重要的一步，需要开发人员具备广泛的软件开发知识和相关领域知识，同时还需要注重需求的收集、规范化、分析和变更管理等方面。</li>
+</ol>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag">基础知识</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
+  id="post-第一篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >软件开发生命周期</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-17T12:02:47.000Z" itemprop="datePublished">2019-03-17</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%9F%BA%E7%A1%80/">基础</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>软件开发的生命周期是指软件开发过程中的各个阶段，通常包括以下几个主要阶段：</p>
+<ol>
+<li>需求分析阶段：这个阶段是软件开发的起点，目的是确定软件的需求，包括功能需求和非功能需求。</li>
+<li>设计阶段：在这个阶段中，开发团队根据需求分析阶段的结果，进行软件设计，包括概要设计和详细设计两个层次。</li>
+<li>编码阶段：在这个阶段中，开发人员根据设计文档进行编码，实现软件的功能。</li>
+<li>测试阶段：在编码完成后，需要进行软件测试，包括单元测试、集成测试、系统测试和验收测试等。</li>
+<li>部署阶段：在测试完成后，软件需要部署到目标环境中，并进行系统集成和部署测试，确保软件能够在目标环境中正常运行。</li>
+<li>运维阶段：软件交付后需要进行维护和升级，包括修复问题、提供技术支持、升级软件版本等。</li>
+</ol>
+<p>这些阶段可以按照不同的模型进行组合，例如瀑布模型、迭代模型、敏捷模型等。其中，瀑布模型是较为传统的软件开发模型，是一种线性的开发模型，依次进行每个阶段的工作，每个阶段之间有明确的交付成果，这种模型适合需求较为明确的软件项目；迭代模型是将整个开发过程划分为多个迭代周期，在每个迭代周期中完成需求分析、设计、编码、测试等工作，每个迭代周期都可以交付可运行的软件版本，适合需求不太明确或需求频繁变化的软件项目；敏捷模型则更加强调快速响应需求变化和持续交付，强调小批量、快速迭代开发，具有高度的灵活性和适应性，适合需求变化频繁和要求交付周期短的软件项目。</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag">基础知识</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+  </article>
+  
+
+  
+  <nav class="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/2/">上一页</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+  </nav>
+  
+</section>
+</div>
+
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2019-2023
+        <i class="ri-heart-fill heart_icon"></i> John Doe
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>Visitors:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>Views:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>    
+    </main>
+    <div class="float_btns">
+      <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+    </div>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/me.png" alt="华华"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/friends">友链</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于我</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="Search">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/alipay.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/wechat.jpg">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-3.6.0.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+
+<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<!-- ClickBoom2 -->
+ 
+<script src="/js/clickBoom2.js"></script>
+ 
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+ 
+<script src="/js/dz.js"></script>
+ 
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+    <div id="music">
+    
+    
+    
+    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="86"
+        src="//music.163.com/outchain/player?type=2&id=https://music.163.com/song?id=1892795600&amp;userid=368972461&auto=1&height=66"></iframe>
+</div>
+
+<style>
+    #music {
+        position: fixed;
+        right: 15px;
+        bottom: 0;
+        z-index: 998;
+    }
+</style>
+    
+    
+
+  </div>
+</body>
+
+</html>
