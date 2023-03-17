@@ -93,7 +93,7 @@
   </entry>
   <entry>
     <title>5.排序数据</title>
-    <url>/2019/03/19/%E7%AC%AC13%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <url>/2019/03/20/%E7%AC%AC13%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>:::info<br>**ORDER BY **子句是SQL语言中的一个关键字，它用于对查询结果按照一个或多个字段进行排序，可以是升序（ASC）或降序（DESC）。<br>:::</p>
 <p><strong>ORDER BY 子句的排序规则如下：</strong></p>
 <ul>
@@ -441,7 +441,7 @@
   </entry>
   <entry>
     <title>Python学习网站推荐</title>
-    <url>/2020/01/06/%E7%AC%AC23%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <url>/2020/01/07/%E7%AC%AC23%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>以下是一些适合初学者学习 Python 的网站：</p>
 <ol>
 <li>Codecademy：这是一个在线编程学习网站，提供免费的 Python 课程和项目练习，适合初学者快速上手。</li>
@@ -483,7 +483,7 @@
   </entry>
   <entry>
     <title>软件测试复习的基础知识内</title>
-    <url>/2020/02/26/%E7%AC%AC25%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <url>/2020/02/27/%E7%AC%AC25%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>软件测试的基础知识包括以下内容：</p>
 <ol>
 <li>软件开发生命周期：了解软件开发生命周期的基本概念，包括需求分析、设计、编码、测试和维护等各个阶段。</li>
@@ -506,7 +506,7 @@
   </entry>
   <entry>
     <title>软件开发过程学习需掌握知识</title>
-    <url>/2020/02/27/%E7%AC%AC26%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <url>/2020/03/20/%E7%AC%AC26%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>学习软件开发过程需要掌握以下几个方面：</p>
 <ol>
 <li>编程语言和开发工具：选择一门常用的编程语言，并掌握相关的开发工具，例如IDE、版本控制工具等。</li>
@@ -525,7 +525,7 @@
   </entry>
   <entry>
     <title>软件质量保证知识</title>
-    <url>/2020/03/08/%E7%AC%AC27%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <url>/2020/03/25/%E7%AC%AC27%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>学习软件质量保证的相关知识，建议从以下几个方面入手：</p>
 <ol>
 <li>软件质量基础知识：了解软件质量的概念、软件质量的度量方法、软件质量的特征等。</li>
@@ -549,7 +549,7 @@
   </entry>
   <entry>
     <title>软件缺陷知识的学习</title>
-    <url>/2020/03/08/%E7%AC%AC28%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <url>/2020/03/30/%E7%AC%AC28%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>学习软件缺陷的知识可以包括以下方面：</p>
 <ol>
 <li>软件测试理论基础：包括软件测试的定义、目的、分类、过程、方法、策略、技术等，其中与缺陷相关的主要是测试方法和技术，例如黑盒测试、白盒测试、灰盒测试、功能测试、性能测试、安全测试等。</li>
