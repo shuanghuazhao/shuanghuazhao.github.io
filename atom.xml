@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-17T08:19:46.296Z</updated>
+  <updated>2023-03-17T14:30:26.558Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,26 +17,500 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>12.分组函数</title>
+    <link href="http://example.com/2019/04/05/%E7%AC%AC20%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/04/05/%E7%AC%AC20%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-04-05T12:10:10.000Z</published>
+    <updated>2023-03-17T14:30:26.558Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>10.使用数据处理函数</title>
+    <link href="http://example.com/2019/04/04/%E7%AC%AC18%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/04/04/%E7%AC%AC18%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-04-04T12:30:10.000Z</published>
+    <updated>2023-03-17T14:28:40.958Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>11.汇总函数</title>
+    <link href="http://example.com/2019/04/04/%E7%AC%AC19%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/04/04/%E7%AC%AC19%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-04-04T12:30:10.000Z</published>
+    <updated>2023-03-17T14:29:23.798Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>9.计算字段</title>
+    <link href="http://example.com/2019/04/03/%E7%AC%AC17%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/04/03/%E7%AC%AC17%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-04-03T12:10:10.000Z</published>
+    <updated>2023-03-17T14:27:28.838Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>7.过滤数据</title>
+    <link href="http://example.com/2019/04/02/%E7%AC%AC15%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/04/02/%E7%AC%AC15%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-04-02T12:30:10.000Z</published>
+    <updated>2023-03-17T14:25:41.938Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>8.正则表达式搜索</title>
+    <link href="http://example.com/2019/04/02/%E7%AC%AC16%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/04/02/%E7%AC%AC16%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-04-02T12:30:10.000Z</published>
+    <updated>2023-03-17T14:26:36.008Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>6.数据过滤</title>
+    <link href="http://example.com/2019/03/25/%E7%AC%AC14%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/25/%E7%AC%AC14%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-25T12:30:10.000Z</published>
+    <updated>2023-03-17T14:24:38.918Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.检索数据</title>
+    <link href="http://example.com/2019/03/19/%E7%AC%AC12%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/19/%E7%AC%AC12%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-19T13:40:10.000Z</published>
+    <updated>2023-03-17T14:21:58.138Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>5.排序数据</title>
+    <link href="http://example.com/2019/03/19/%E7%AC%AC13%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/19/%E7%AC%AC13%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-19T13:40:10.000Z</published>
+    <updated>2023-03-17T14:23:28.828Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3.使用MySQL</title>
+    <link href="http://example.com/2019/03/19/%E7%AC%AC11%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/19/%E7%AC%AC11%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-19T12:40:10.000Z</published>
+    <updated>2023-03-17T14:21:23.948Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2.MySQL简介</title>
+    <link href="http://example.com/2019/03/19/%E7%AC%AC10%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/19/%E7%AC%AC10%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-19T12:20:10.000Z</published>
+    <updated>2023-03-17T14:19:51.358Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习MySQL的书籍推荐</title>
+    <link href="http://example.com/2019/03/19/%E7%AC%AC8%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/19/%E7%AC%AC8%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-19T12:13:10.000Z</published>
+    <updated>2023-03-17T14:17:35.068Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="书籍" scheme="http://example.com/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1.了解SQL</title>
+    <link href="http://example.com/2019/03/19/%E7%AC%AC9%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/19/%E7%AC%AC9%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-19T12:13:10.000Z</published>
+    <updated>2023-03-17T14:17:39.178Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
+    
+    
+    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>验收测试基础知识</title>
+    <link href="http://example.com/2019/03/18/%E7%AC%AC7%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/18/%E7%AC%AC7%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-18T12:30:47.000Z</published>
+    <updated>2023-03-17T14:11:01.808Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件测试阶段" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/"/>
+    
+    
+    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>系统测试基础知识</title>
+    <link href="http://example.com/2019/03/18/%E7%AC%AC6%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/18/%E7%AC%AC6%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-18T12:02:47.000Z</published>
+    <updated>2023-03-17T14:09:37.488Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>单元测试基础知识</title>
+    <link href="http://example.com/2019/03/17/%E7%AC%AC4%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/17/%E7%AC%AC4%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-17T14:02:47.000Z</published>
+    <updated>2023-03-17T14:11:15.788Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件测试阶段" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/"/>
+    
+    
+    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>集成测试基础知识</title>
+    <link href="http://example.com/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-17T14:02:47.000Z</published>
+    <updated>2023-03-17T14:08:24.318Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件设计阶段需要了解的知识</title>
+    <link href="http://example.com/2019/03/17/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/17/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-17T14:02:47.000Z</published>
+    <updated>2023-03-17T14:05:52.879Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>需求分析阶段需要了解的知识</title>
+    <link href="http://example.com/2019/03/17/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/17/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-17T13:59:41.000Z</published>
+    <updated>2023-03-17T14:02:33.169Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>软件开发生命周期</title>
-    <link href="http://example.com/2023/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2023/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2023-03-17T08:18:30.000Z</published>
-    <updated>2023-03-17T08:19:46.296Z</updated>
+    <link href="http://example.com/2019/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2019/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2019-03-17T12:02:47.000Z</published>
+    <updated>2023-03-17T14:12:53.548Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;软件开发的生命周期是指软件开发过程中的各个阶段，通常包括以下几个主要阶段：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;需求分析阶段：这个阶段是软件开发的起点，目的是确定软件的需求，包括功能需求和非功能需求。&lt;/li&gt;
-&lt;li&gt;设计阶段：在这个阶段中，开发团队根据需求分析阶段的结果，进行软件</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
     
     
+    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
     
   </entry>
   
