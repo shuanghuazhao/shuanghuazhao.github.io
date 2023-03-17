@@ -173,6 +173,21 @@
       </tags>
   </entry>
   <entry>
+    <title>8.正则表达式搜索</title>
+    <url>/2019/04/02/%E7%AC%AC16%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>:::info<br>MySQL中正则表达式是一种用于文本匹配的工具，可以用regexp操作符来进行正则表达式匹配。MySQL的正则表达式语法与PHP或Perl类似，可以使用一些特殊字符来表示不同的规则。<br>:::</p>
+<blockquote>
+<p><strong>MySQL中正则表达式常用的特殊字符有以下几种：</strong><br><strong>.</strong> 匹配任意单个字符<br><strong>[]</strong> 匹配方括号内的任意字符<br><strong>[^]</strong> 匹配方括号外的任意字符<br>***** 匹配前面的字符零次或多次<br><strong>+</strong> 匹配前面的字符一次或多次<br><strong>?</strong> 匹配前面的字符零次或一次<br><strong>{n}</strong> 匹配前面的字符恰好n次<br><strong>{n,m}</strong> 匹配前面的字符至少n次，至多m次<br><strong>|</strong> 匹配两个选项中的一个<br><strong>^</strong> 匹配字符串开头<br><strong>$</strong> 匹配字符串结尾</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>SQL</category>
+      </categories>
+      <tags>
+        <tag>SQL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>7.过滤数据</title>
     <url>/2019/04/02/%E7%AC%AC15%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="逻辑操作符"><a href="#逻辑操作符" class="headerlink" title="逻辑操作符"></a>逻辑操作符</h1><blockquote>
@@ -218,21 +233,6 @@
 <figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Customers</span><br><span class="line"><span class="keyword">WHERE</span> CustomerName <span class="keyword">LIKE</span> <span class="string">&#x27;A__&#x27;</span>;</span><br></pre></td></tr></table></figure>
 
 <p>这个SQL语句会返回满足条件的记录，并且每个记录都有一个隐含的1作为逻辑表达式的结果。如果没有满足条件的记录，那么SQL语句会返回空集，并且没有隐含的0作为逻辑表达式的结果。如果有任何字段为NULL，那么SQL语句会返回NULL作为逻辑表达式的结果。</p>
-]]></content>
-      <categories>
-        <category>SQL</category>
-      </categories>
-      <tags>
-        <tag>SQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>8.正则表达式搜索</title>
-    <url>/2019/04/02/%E7%AC%AC16%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>:::info<br>MySQL中正则表达式是一种用于文本匹配的工具，可以用regexp操作符来进行正则表达式匹配。MySQL的正则表达式语法与PHP或Perl类似，可以使用一些特殊字符来表示不同的规则。<br>:::</p>
-<blockquote>
-<p><strong>MySQL中正则表达式常用的特殊字符有以下几种：</strong><br><strong>.</strong> 匹配任意单个字符<br><strong>[]</strong> 匹配方括号内的任意字符<br><strong>[^]</strong> 匹配方括号外的任意字符<br>***** 匹配前面的字符零次或多次<br><strong>+</strong> 匹配前面的字符一次或多次<br><strong>?</strong> 匹配前面的字符零次或一次<br><strong>{n}</strong> 匹配前面的字符恰好n次<br><strong>{n,m}</strong> 匹配前面的字符至少n次，至多m次<br><strong>|</strong> 匹配两个选项中的一个<br><strong>^</strong> 匹配字符串开头<br><strong>$</strong> 匹配字符串结尾</p>
-</blockquote>
 ]]></content>
       <categories>
         <category>SQL</category>
@@ -428,18 +428,6 @@
       </tags>
   </entry>
   <entry>
-    <title>学习JMeter的资源和网站</title>
-    <url>/2020/01/06/%E7%AC%AC22%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>如果你没有基础，学习 JMeter 可能需要先学习一些基础的软件测试知识和编程知识。以下是一些推荐的 JMeter 学习资源：<br>书籍：<br> -《JMeter学习与实战》：作者刘方涵，深入浅出的讲解了JMeter的使用方法以及常见的性能测试场景。<br>-《JMeter实战》：作者Praphullchandra Singh，从基础到实战全面介绍了JMeter的使用方法和实际应用。<br>-《JMeter Cookbook》：作者Bayo Erinle，提供了许多实用的JMeter脚本和性能测试技巧。<br>网站：<br>● JMeter官方文档：官方文档详细介绍了JMeter的各个方面，包括用户手册、函数和变量、组件等等。<br>● Apache JMeter用户邮件列表：这是一个非常活跃的邮件列表，里面有许多用户在讨论JMeter的使用问题和技巧。<br>● JMeter Tutorials：该网站提供了大量的JMeter教程，从入门到高级应用都有涉及，包括视频教程和实例演示。<br>● JMeter学习之路：作者白薯，通过自己的学习经验总结了一些JMeter的学习心得和实践经验。<br>希望这些资源可以帮助你开始学习 JMeter</p>
-]]></content>
-      <categories>
-        <category>推荐</category>
-      </categories>
-      <tags>
-        <tag>书籍</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python学习网站推荐</title>
     <url>/2020/01/07/%E7%AC%AC23%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>以下是一些适合初学者学习 Python 的网站：</p>
@@ -450,6 +438,18 @@
 <li>Coursera：这是一个在线学习平台，提供了多个大学和机构的 Python 课程，包括 Python 编程基础、数据科学和机器学习等方向，适合有一定编程经验的学习者。</li>
 <li>edX：类似于 Coursera，edX 也是一个在线学习平台，提供了多个大学和机构的 Python 课程和项目练习，适合各个水平的学习者。<br>除了以上网站，还有许多其他的 Python 学习资源和社区，你可以根据自己的需求和喜好来选择合适的学习方式。</li>
 </ol>
+]]></content>
+      <categories>
+        <category>推荐</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习JMeter的资源和网站</title>
+    <url>/2020/01/06/%E7%AC%AC22%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>如果你没有基础，学习 JMeter 可能需要先学习一些基础的软件测试知识和编程知识。以下是一些推荐的 JMeter 学习资源：<br>书籍：<br> -《JMeter学习与实战》：作者刘方涵，深入浅出的讲解了JMeter的使用方法以及常见的性能测试场景。<br>-《JMeter实战》：作者Praphullchandra Singh，从基础到实战全面介绍了JMeter的使用方法和实际应用。<br>-《JMeter Cookbook》：作者Bayo Erinle，提供了许多实用的JMeter脚本和性能测试技巧。<br>网站：<br>● JMeter官方文档：官方文档详细介绍了JMeter的各个方面，包括用户手册、函数和变量、组件等等。<br>● Apache JMeter用户邮件列表：这是一个非常活跃的邮件列表，里面有许多用户在讨论JMeter的使用问题和技巧。<br>● JMeter Tutorials：该网站提供了大量的JMeter教程，从入门到高级应用都有涉及，包括视频教程和实例演示。<br>● JMeter学习之路：作者白薯，通过自己的学习经验总结了一些JMeter的学习心得和实践经验。<br>希望这些资源可以帮助你开始学习 JMeter</p>
 ]]></content>
       <categories>
         <category>推荐</category>
