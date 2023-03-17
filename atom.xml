@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>华华</title>
+  
+  <subtitle>朋友都是有共通点的 (物以类聚)</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-03-17T08:19:46.296Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件开发生命周期</title>
+    <link href="http://example.com/2023/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2023/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2023-03-17T08:18:30.000Z</published>
+    <updated>2023-03-17T08:19:46.296Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;软件开发的生命周期是指软件开发过程中的各个阶段，通常包括以下几个主要阶段：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;需求分析阶段：这个阶段是软件开发的起点，目的是确定软件的需求，包括功能需求和非功能需求。&lt;/li&gt;
+&lt;li&gt;设计阶段：在这个阶段中，开发团队根据需求分析阶段的结果，进行软件</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2023/03/17/hello-world/"/>
+    <id>http://example.com/2023/03/17/hello-world/</id>
+    <published>2023-03-17T08:12:17.926Z</published>
+    <updated>2023-03-17T08:12:17.926Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
