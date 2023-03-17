@@ -371,7 +371,7 @@
     <link href="http://example.com/2019/03/18/%E7%AC%AC6%E7%AF%87%E6%96%87%E7%AB%A0/"/>
     <id>http://example.com/2019/03/18/%E7%AC%AC6%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2019-03-18T12:02:47.000Z</published>
-    <updated>2023-03-17T14:09:37.488Z</updated>
+    <updated>2023-03-17T14:32:32.998Z</updated>
     
     
       
@@ -384,7 +384,7 @@
     
     
     
-    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    <category term="软件测试阶段" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/"/>
     
     
     <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
@@ -421,7 +421,7 @@
     <link href="http://example.com/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/"/>
     <id>http://example.com/2019/03/17/%E7%AC%AC5%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2019-03-17T14:02:47.000Z</published>
-    <updated>2023-03-17T14:08:24.318Z</updated>
+    <updated>2023-03-17T14:32:30.368Z</updated>
     
     
       
@@ -434,7 +434,7 @@
     
     
     
-    <category term="基础" scheme="http://example.com/categories/%E5%9F%BA%E7%A1%80/"/>
+    <category term="软件测试阶段" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5/"/>
     
     
     <category term="基础知识" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
