@@ -143,6 +143,75 @@
     
     
     <article
+  id="post-第11篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/19/%E7%AC%AC11%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >3.使用MySQL</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/19/%E7%AC%AC11%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-19T12:40:10.000Z" itemprop="datePublished">2019-03-19</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/SQL/">SQL</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h2 id="连接"><a href="#连接" class="headerlink" title="连接"></a>连接</h2><p>为了连接到MySQL,需要以下信息：</p>
+<ul>
+<li>主机名（计算机名）–如果链接到本地MySQL服务器，为localhost;</li>
+<li>端口（如果使用默认端口3306之外的端口）；</li>
+<li>一个合法的用户名；</li>
+<li>用户口令（如果需要）<h2 id="选择数据库"><a href="#选择数据库" class="headerlink" title="选择数据库"></a>选择数据库</h2>在你最初连接到MySQL时，没有任何数据库打开供你使用。在你能执行任意数据库操作前，需要选择一个数据库。为此，可使用<strong>USE</strong>关键字。<br>:::danger<br>关键字(key word) 作为MySQL语言组成部分的一个保留字。决不要用关键字命名一个表或列。附录E列出了MySQL的关键字。<br>:::</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">输入：</span><br><span class="line">	USE 数据库名;</span><br><span class="line">输出：</span><br><span class="line">	Database changed</span><br><span class="line">分析：</span><br><span class="line">	USE语句并不返回任何结果。依赖于使用的客户机，显示某种形式的通知。例如，这里显示出的Database changed消息是mysql命令行实用程序在数据库选择成功后显示的。</span><br></pre></td></tr></table></figure>
+
+<h2 id="了解数据库和表"><a href="#了解数据库和表" class="headerlink" title="了解数据库和表"></a>了解数据库和表</h2><p>如果你不知道可以使用的数据库名时怎么办？这时，MySQL Administrator和MySQL Query Browser怎样能显示可用的数据库列表？<br>数据库、表、列、用户、权限等的信息被存储在数据库和表中（MySQL使用MySQL来存储这些信息）。不过，内部的表一般不直接访问。可用MySQL的SHOW命令来显示这些信息（MySQL从内部表中提取这些信息）。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">输入：</span><br><span class="line">	<span class="keyword">SHOW</span> DATABASES;</span><br><span class="line">输出：</span><br><span class="line">	可用数据库的一个列表。包含再这个列表中的可能是MySQL内部使用的数据库。</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">输入：</span><br><span class="line">	<span class="keyword">SHOW</span> TABLES;</span><br><span class="line">输出：</span><br><span class="line">	返回当前选择的数据库内可用表的列表。</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>DESCRIBE语句 MySQL支持用DESCRIBE作为SHOW COLUMNS FROM的一种快捷方式。换句话说，DESCRIBE customers；是SHOW COLUMNS FROM customers；的一种快捷方式。</p>
+</blockquote>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SHOW</span> STATUS，显示广泛的服务器状态信息；</span><br><span class="line"><span class="keyword">SHOW</span> <span class="keyword">CREATE</span> DARABASE 和<span class="keyword">SHOW</span> <span class="keyword">CREATE</span> <span class="keyword">TABLE</span>.分别用来显示创建特定数据库或表的MySQL语句；</span><br><span class="line"><span class="keyword">SHOW</span> GRANTS,用来显示授予用户的安全权限</span><br><span class="line"><span class="keyword">SHOW</span> ERRORS和<span class="keyword">SHOW</span> WARNINGS用来显示服务器错误或警告信息</span><br></pre></td></tr></table></figure>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQL/" rel="tag">SQL</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
   id="post-第10篇文章"
   class="article article-type-post"
   itemscope
@@ -727,76 +796,13 @@
 </article>
 
     
-    <article
-  id="post-第一篇文章"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2019/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"
-    >软件开发生命周期</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2019/03/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
-  <time datetime="2019-03-17T12:02:47.000Z" itemprop="datePublished">2019-03-17</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%9F%BA%E7%A1%80/">基础</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>软件开发的生命周期是指软件开发过程中的各个阶段，通常包括以下几个主要阶段：</p>
-<ol>
-<li>需求分析阶段：这个阶段是软件开发的起点，目的是确定软件的需求，包括功能需求和非功能需求。</li>
-<li>设计阶段：在这个阶段中，开发团队根据需求分析阶段的结果，进行软件设计，包括概要设计和详细设计两个层次。</li>
-<li>编码阶段：在这个阶段中，开发人员根据设计文档进行编码，实现软件的功能。</li>
-<li>测试阶段：在编码完成后，需要进行软件测试，包括单元测试、集成测试、系统测试和验收测试等。</li>
-<li>部署阶段：在测试完成后，软件需要部署到目标环境中，并进行系统集成和部署测试，确保软件能够在目标环境中正常运行。</li>
-<li>运维阶段：软件交付后需要进行维护和升级，包括修复问题、提供技术支持、升级软件版本等。</li>
-</ol>
-<p>这些阶段可以按照不同的模型进行组合，例如瀑布模型、迭代模型、敏捷模型等。其中，瀑布模型是较为传统的软件开发模型，是一种线性的开发模型，依次进行每个阶段的工作，每个阶段之间有明确的交付成果，这种模型适合需求较为明确的软件项目；迭代模型是将整个开发过程划分为多个迭代周期，在每个迭代周期中完成需求分析、设计、编码、测试等工作，每个迭代周期都可以交付可运行的软件版本，适合需求不太明确或需求频繁变化的软件项目；敏捷模型则更加强调快速响应需求变化和持续交付，强调小批量、快速迭代开发，具有高度的灵活性和适应性，适合需求变化频繁和要求交付周期短的软件项目。</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag">基础知识</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-   
-  
-</article>
-
-    
   </article>
   
 
   
   <nav class="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/2/">上一页</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+    <a class="extend prev" rel="prev" href="/page/2/">上一页</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/">下一页</a>
   </nav>
   
 </section>

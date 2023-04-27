@@ -42,6 +42,31 @@
   </entry>
   
   <entry>
+    <title>接口测试的流程</title>
+    <link href="http://example.com/2020/03/31/%E7%AC%AC31%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2020/03/31/%E7%AC%AC31%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-03-31T10:20:10.000Z</published>
+    <updated>2023-04-27T21:15:10.654Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="接口测试" scheme="http://example.com/categories/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="接口" scheme="http://example.com/tags/%E6%8E%A5%E5%8F%A3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>软件缺陷知识的学习</title>
     <link href="http://example.com/2020/03/30/%E7%AC%AC28%E7%AF%87%E6%96%87%E7%AB%A0/"/>
     <id>http://example.com/2020/03/30/%E7%AC%AC28%E7%AF%87%E6%96%87%E7%AB%A0/</id>
@@ -472,31 +497,6 @@
     <id>http://example.com/2019/03/19/%E7%AC%AC12%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2019-03-19T13:55:10.000Z</published>
     <updated>2023-03-17T14:54:32.488Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="SQL" scheme="http://example.com/categories/SQL/"/>
-    
-    
-    <category term="SQL" scheme="http://example.com/tags/SQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3.使用MySQL</title>
-    <link href="http://example.com/2019/03/19/%E7%AC%AC11%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2019/03/19/%E7%AC%AC11%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2019-03-19T12:40:10.000Z</published>
-    <updated>2023-03-17T14:21:23.948Z</updated>
     
     
       
