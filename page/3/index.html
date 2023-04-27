@@ -143,6 +143,91 @@
     
     
     <article
+  id="post-第12篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2019/03/19/%E7%AC%AC12%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >4.检索数据</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2019/03/19/%E7%AC%AC12%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2019-03-19T13:55:10.000Z" itemprop="datePublished">2019-03-19</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/SQL/">SQL</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h2 id="SELECT语句"><a href="#SELECT语句" class="headerlink" title="SELECT语句"></a>SELECT语句</h2><p>:::info<br>SELECT语句是一种SQL语句，用于从数据库中选取数据。<br>你可以使用SELECT语句来指定要查询的列名、表名、筛选条件、分组和排序等。<br>:::</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> 表名</span><br><span class="line">查询这张表所有内容。</span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> 列名 <span class="keyword">from</span> 表名</span><br><span class="line">查询这张表某一列所有内容。</span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> 列名<span class="number">1</span>，列名<span class="number">2</span>…<span class="keyword">from</span> 表名</span><br><span class="line">查询这张表的列<span class="number">1</span>，列<span class="number">2</span>，等多列。</span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">distinct</span> 列名 <span class="keyword">from</span> 表名</span><br><span class="line">查询这一列去掉重复内容后的内容。</span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> 表达式 <span class="keyword">from</span> 表名</span><br><span class="line">查询表达式</span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> 列名（表达式）<span class="keyword">as</span> 别名 <span class="keyword">from</span> 表名</span><br><span class="line">给某一列或表达式取别名。</span><br></pre></td></tr></table></figure>
+
+<p><strong>常见的SELECT语句使用规范有：</strong></p>
+<ul>
+<li>SELECT语句选择的字段按照每行1个字段的方式编排。</li>
+<li>首个选择的字段与SELECT之间隔1个缩进量。</li>
+<li>换行缩进2个缩进量后，添加逗号再输入其它字段名。</li>
+<li>SELECT语句中尽量避免使用*，而应该明确指定要查询的列名。</li>
+<li>SELECT语句中尽量避免使用DISTINCT，而应该通过WHERE子句进行筛选。</li>
+<li>SELECT语句中尽量避免使用子查询，而应该使用JOIN子句连接多个表。</li>
+<li>SELECT语句中尽量避免使用函数或表达式，而应该在源数据上进行处理。</li>
+<li>SELECT语句中尽量避免使用ORDER BY子句，而应该在客户端进行排序。</li>
+</ul>
+<p><strong>SELECT语句是一种常用的SQL语句，但在使用它时也要注意一些事项：</strong></p>
+<ul>
+<li>在参数或查询中指定日期时间值时，要以字符串形式提供这些值。</li>
+<li>在SELECT查询的TOP子句中，不能使用特殊字符”#“、”^“、”&amp;“和”%”。</li>
+<li>在表的架构中返回的列名作为所有大写字符返回。</li>
+<li>在SELECT查询的LIKE子句中，只有百分号”%” (对于零个或多个字符) 和下划线”_” (对于任何单个字符) 是允许的特殊字符。</li>
+<li>SELECT查询中不能使用可能超过255个字符的数据类型的值，例如STRING、RAWSTRING、LRAW、VARC和LCHAR。</li>
+<li>SELECT语句支持的最大列数或字段数为1000。</li>
+<li>WHERE子句中支持的最大谓词数为100。<h2 id="检索多个列"><a href="#检索多个列" class="headerlink" title="检索多个列"></a>检索多个列</h2>:::info<br>要想从一个表中检索多个列，使用相同的SELECT语句。唯一的不同是必须在SELECT关键字后给出多个列名，列名之间必须以逗号分隔。<br>:::<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> 列名<span class="number">1</span>，列名<span class="number">2</span>…<span class="keyword">from</span> 表名</span><br><span class="line">查询这张表的列<span class="number">1</span>，列<span class="number">2</span>，等多列。</span><br></pre></td></tr></table></figure>
+<h2 id="检索不同的行（DISTINCT）"><a href="#检索不同的行（DISTINCT）" class="headerlink" title="检索不同的行（DISTINCT）"></a>检索不同的行（DISTINCT）</h2>DISTINCT关键字的作用是用于返回唯一不同的值。在表中，可能会包含重复值，有时我们只想列出不同的值。<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">DISTINCT</span> 列名, <span class="keyword">FROM</span> 表名；</span><br><span class="line">查询此列内容下行内的不同内容</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="限制查询结果（LIMIT）"><a href="#限制查询结果（LIMIT）" class="headerlink" title="限制查询结果（LIMIT）"></a>限制查询结果（LIMIT）</h2>:::info<br>LIMIT子句的作用是用于强制SELECT语句返回指定的记录数。LIMIT子句可以接受一个或两个参数，参数必须是整数常量。如果给定两个参数，第一个指定返回记录行的偏移量，第二个指定返回记录行的最大数目。<br>:::</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">例如，如果我们想查询表中前<span class="number">10</span>条记录，可以使用如下语句：</span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Persons LIMIT <span class="number">10</span>;</span><br><span class="line">如果我们想查询表中从第<span class="number">11</span>条开始的<span class="number">10</span>条记录，可以使用如下语句：</span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Persons LIMIT <span class="number">10</span> <span class="keyword">OFFSET</span> <span class="number">10</span>;</span><br><span class="line">或者</span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Persons LIMIT <span class="number">10</span>, <span class="number">10</span>;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><strong>注意，在使用LIMIT子句时，使用ORDER BY子句确保返回的行按指定顺序非常重要5。并非所有数据库系统都支持LIMIT子句，因此，LIMIT子句仅在某些数据库系统中可用，例如MySQL，PostgreSQL，SQLite等。</strong></p>
+<h2 id="使用完全限定的表名"><a href="#使用完全限定的表名" class="headerlink" title="使用完全限定的表名"></a>使用完全限定的表名</h2><p>完全限定的表名是指在表名之前加上数据库名来表示这个表是属于哪个数据库的。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> 表名.列名 <span class="keyword">FROM</span> 数据库名.表名;</span><br></pre></td></tr></table></figure>
+
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQL/" rel="tag">SQL</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
   id="post-第11篇文章"
   class="article article-type-post"
   itemscope
@@ -714,66 +799,6 @@
 <li>数据库设计：数据库是软件系统的关键组成部分，因此在软件设计阶段需要进行数据库设计。数据库设计需要考虑数据结构、数据类型、数据安全等方面的问题。</li>
 <li>用户体验设计：软件设计不仅仅是为了实现功能，还要提供良好的用户体验。因此，软件设计阶段需要进行用户体验设计，包括界面设计、交互设计、可用性测试等。</li>
 <li>软件测试：软件设计阶段需要制定测试计划和测试策略，以确保软件系统的正确性、健壮性和性能。<br>总之，在软件设计阶段，需要对软件系统的要求、体系结构、设计模式、编程语言和工具、数据库设计、用户体验设计和软件测试等方面进行全面了解，以制定高质量、可维护和可扩展的软件系统。</li>
-</ol>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag">基础知识</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-   
-  
-</article>
-
-    
-    <article
-  id="post-第二篇文章"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2019/03/17/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"
-    >需求分析阶段需要了解的知识</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2019/03/17/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
-  <time datetime="2019-03-17T13:59:41.000Z" itemprop="datePublished">2019-03-17</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>需求分析是软件开发的第一步，是确保软件开发成功的关键之一。在需求分析阶段，需要对软件的需求进行充分的了解和收集，包括功能需求、性能需求、安全需求、用户需求等等，同时还需要考虑到需求的可行性、可靠性、可维护性等方面。<br>以下是需求分析中需要了解的知识：</p>
-<ol>
-<li>软件开发的基础知识：了解软件开发的基本概念、软件开发流程、软件工程的基本原则和方法等。</li>
-<li>领域知识：了解软件开发的相关领域，例如银行、保险、医疗等领域的相关业务流程和规则等，以便更好地理解和收集需求。</li>
-<li>用户需求：了解用户的需求、期望和使用场景等，通过用户调研、用户访谈等方式进行收集和分析。</li>
-<li>功能需求：明确软件需要完成的功能，对每个功能进行详细的描述和分析。</li>
-<li>非功能需求：了解软件的性能需求（例如响应时间、并发数、可扩展性等）、安全需求（例如用户权限、数据安全等）和可用性需求（例如易用性、用户体验等）等。</li>
-<li>可行性分析：对需求的可行性进行评估，包括技术可行性、资源可行性、市场可行性等方面。</li>
-<li>需求规范化：对需求进行规范化和文档化，例如使用用例图、活动图、流程图、状态转换图等方式对需求进行描述和分析。</li>
-<li>需求变更管理：了解需求变更的原因和影响，并采取相应的措施进行管理和跟踪。<br>综上所述，需求分析是软件开发中至关重要的一步，需要开发人员具备广泛的软件开发知识和相关领域知识，同时还需要注重需求的收集、规范化、分析和变更管理等方面。</li>
 </ol>
  
       <!-- reward -->

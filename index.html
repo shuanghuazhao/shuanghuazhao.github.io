@@ -143,6 +143,63 @@
     
     
     <article
+  id="post-第32篇文章"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/04/05/%E7%AC%AC32%E7%AF%87%E6%96%87%E7%AB%A0/"
+    >接口测试的示例</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2020/04/05/%E7%AC%AC32%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2020-04-05T09:25:10.000Z" itemprop="datePublished">2020-04-05</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/">接口测试</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>以下是一个 Python 语言的接口测试代码示例，使用 requests 库进行 HTTP 请求，并使用 unittest 库进行断言和测试结果的检查。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> unittest</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TestAPI</span>(unittest.TestCase):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">setUp</span>(<span class="params">self</span>):</span><br><span class="line">        self.url = <span class="string">&quot;https://api.example.com&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">test_get_users</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="comment"># 发送 GET 请求获取用户列表</span></span><br><span class="line">        response = requests.get(self.url + <span class="string">&quot;/users&quot;</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 检查响应状态码是否为 200</span></span><br><span class="line">        self.assertEqual(response.status_code, <span class="number">200</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 检查响应数据是否为 JSON 格式</span></span><br><span class="line">        self.assertEqual(response.headers[<span class="string">&quot;Content-Type&quot;</span>], <span class="string">&quot;application/json&quot;</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 检查响应数据是否包含预期的字段</span></span><br><span class="line">        users = response.json()</span><br><span class="line">        <span class="keyword">for</span> user <span class="keyword">in</span> users:</span><br><span class="line">            self.assertIn(<span class="string">&quot;id&quot;</span>, user)</span><br><span class="line">            self.assertIn(<span class="string">&quot;name&quot;</span>, user)</span><br><span class="line">            self.assertIn(<span class="string">&quot;email&quot;</span>, user)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">test_create_user</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="comment"># 发送 POST 请求创建新用户</span></span><br><span class="line">        payload = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;Test User&quot;</span>, <span class="string">&quot;email&quot;</span>: <span class="string">&quot;test@example.com&quot;</span>&#125;</span><br><span class="line">        response = requests.post(self.url + <span class="string">&quot;/users&quot;</span>, json=payload)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 检查响应状态码是否为 201</span></span><br><span class="line">        self.assertEqual(response.status_code, <span class="number">201</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 检查响应数据是否为 JSON 格式</span></span><br><span class="line">        self.assertEqual(response.headers[<span class="string">&quot;Content-Type&quot;</span>], <span class="string">&quot;application/json&quot;</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 检查响应数据是否包含预期的字段和值</span></span><br><span class="line">        user = response.json()</span><br><span class="line">        self.assertIn(<span class="string">&quot;id&quot;</span>, user)</span><br><span class="line">        self.assertEqual(user[<span class="string">&quot;name&quot;</span>], <span class="string">&quot;Test User&quot;</span>)</span><br><span class="line">        self.assertEqual(user[<span class="string">&quot;email&quot;</span>], <span class="string">&quot;test@example.com&quot;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">tearDown</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    unittest.main()</span><br></pre></td></tr></table></figure>
+
+<p>该示例代码包含了两个测试方法，一个用于测试获取用户列表的 GET 请求，另一个用于测试创建新用户的 POST 请求。在每个测试方法中，使用 requests 库发送 HTTP 请求，并使用 unittest 库的断言方法进行结果检查，包括检查响应状态码、响应数据类型、响应数据字段和值等方面。最后使用 unittest 库的 main() 方法运行测试。</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8E%A5%E5%8F%A3/" rel="tag">接口</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+   
+  
+</article>
+
+    
+    <article
   id="post-第30篇文章 "
   class="article article-type-post"
   itemscope
@@ -716,60 +773,6 @@
 <li>Coursera：这是一个在线学习平台，提供了多个大学和机构的 Python 课程，包括 Python 编程基础、数据科学和机器学习等方向，适合有一定编程经验的学习者。</li>
 <li>edX：类似于 Coursera，edX 也是一个在线学习平台，提供了多个大学和机构的 Python 课程和项目练习，适合各个水平的学习者。<br>除了以上网站，还有许多其他的 Python 学习资源和社区，你可以根据自己的需求和喜好来选择合适的学习方式。</li>
 </ol>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B9%A6%E7%B1%8D/" rel="tag">书籍</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-   
-  
-</article>
-
-    
-    <article
-  id="post-第22篇文章"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2020/01/06/%E7%AC%AC22%E7%AF%87%E6%96%87%E7%AB%A0/"
-    >学习JMeter的资源和网站</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2020/01/06/%E7%AC%AC22%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
-  <time datetime="2020-01-06T12:50:10.000Z" itemprop="datePublished">2020-01-06</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8E%A8%E8%8D%90/">推荐</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>如果你没有基础，学习 JMeter 可能需要先学习一些基础的软件测试知识和编程知识。以下是一些推荐的 JMeter 学习资源：<br>书籍：<br> -《JMeter学习与实战》：作者刘方涵，深入浅出的讲解了JMeter的使用方法以及常见的性能测试场景。<br>-《JMeter实战》：作者Praphullchandra Singh，从基础到实战全面介绍了JMeter的使用方法和实际应用。<br>-《JMeter Cookbook》：作者Bayo Erinle，提供了许多实用的JMeter脚本和性能测试技巧。<br>网站：<br>● JMeter官方文档：官方文档详细介绍了JMeter的各个方面，包括用户手册、函数和变量、组件等等。<br>● Apache JMeter用户邮件列表：这是一个非常活跃的邮件列表，里面有许多用户在讨论JMeter的使用问题和技巧。<br>● JMeter Tutorials：该网站提供了大量的JMeter教程，从入门到高级应用都有涉及，包括视频教程和实例演示。<br>● JMeter学习之路：作者白薯，通过自己的学习经验总结了一些JMeter的学习心得和实践经验。<br>希望这些资源可以帮助你开始学习 JMeter</p>
  
       <!-- reward -->
       
